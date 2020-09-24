@@ -1,4 +1,4 @@
-/*section 1 */
+/* section 1 */
 
 .main__hero {
   display: flex;
@@ -35,7 +35,7 @@
   padding: 15px;
 }
 
-/*section 2 */
+/* section 2 */
 
 .tips {
   display: flex;
@@ -75,7 +75,7 @@
   margin-top: 30px;
 }
 
-/*section 3 */
+/* section 3 */
 
 .reasons {
   background-color: #eff9ff;
@@ -113,4 +113,29 @@
   height: 45px;
   border-radius: 22.5px;
   margin-bottom: 60px;
+}
+
+/* tablet */
+
+@media all and (min-width: 768px) {
+  .reasons_div {
+    display: flex;
+    flex-direction: row;
+  }
+  .reasons__title {
+    font-size: 26px;
+    line-height: 45px;
+  }
+  .reasons--h3 {
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+  .reasons--text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .reasons__button {
+    width: 210px;
+  }
 }
