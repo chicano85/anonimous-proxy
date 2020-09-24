@@ -50,16 +50,19 @@
 @media all and (min-width: 768px) {
   .footer__div {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
   }
 
   .footer__small {
+    order: -1;
     text-align: left;
-    margin-left: 39px;
   }
   .footer--articles {
+    text-align: left;
+  }
+
+  .footer--social {
     text-align: left;
   }
 }
