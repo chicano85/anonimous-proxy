@@ -1,10 +1,11 @@
 .header {
-  background-color: #0271bc;
+  background-color: $color-menu;
   width: 44px;
   height: 44px;
   position: fixed;
   top: 0;
-}
-.header_img {
-  padding: 15px;
+
+  &_img {
+    padding: 15px;
+  }
 }
