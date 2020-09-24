@@ -23,7 +23,7 @@
 }
 
 .main__hero--subtitle {
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-size: 16px;
   color: white;
   margin-top: 10px;
@@ -118,6 +118,32 @@
 /* tablet */
 
 @media all and (min-width: 768px) {
+  /* section 1 */
+
+  .main__hero--title {
+    font-size: 80px;
+  }
+  .main__hero--subtitle {
+    font-size: 24px;
+  }
+
+  /* section 2 */
+
+  .tips {
+    margin-left: 39px;
+  }
+
+  .tips__title {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .tips__text {
+    font-size: 20px;
+  }
+
+  /* section 3 */
+
   .reasons_div {
     display: flex;
     flex-direction: row;
@@ -138,4 +164,6 @@
   .reasons__button {
     width: 210px;
   }
+
+  /* footer */
 }
