@@ -6,6 +6,7 @@
   align-items: center;
   text-align: center;
   background-color: #304268;
+  position: relative;
 }
 
 .footer__link {
@@ -42,4 +43,23 @@
   font-size: 14px;
   color: white;
   margin-bottom: 45px;
+}
+
+/* tablet */
+
+@media all and (min-width: 768px) {
+  .footer__div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer__small {
+    text-align: left;
+    margin-left: 39px;
+  }
+  .footer--articles {
+    text-align: left;
+  }
 }
