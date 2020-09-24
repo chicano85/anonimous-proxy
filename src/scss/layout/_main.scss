@@ -129,6 +129,10 @@
   align-items: center;
 }
 
+.reasons__link:hover {
+  background-color: purple;
+}
+
 /* tablet */
 
 @media all and (min-width: 768px) {
@@ -139,6 +143,10 @@
   }
   .main__hero--subtitle {
     font-size: 24px;
+    margin: 20px;
+  }
+  .main__hero--link {
+    margin: 30px 0 45px 0;
   }
 
   /* section 2 */
