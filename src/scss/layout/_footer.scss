@@ -27,10 +27,10 @@
 
 @keyframes move {
   from {
-    margin-bottom: 80%;
+    margin-bottom: 50%;
   }
   to {
-    margin-top: 10%;
+    margin-top: 30%;
   }
 }
 
@@ -58,6 +58,9 @@
   line-height: 30px;
   color: white;
   margin-bottom: 45px;
+}
+.heart {
+  color: red;
 }
 
 /* tablet */
