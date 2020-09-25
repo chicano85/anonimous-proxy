@@ -41,6 +41,7 @@
   flex-direction: column;
   font-family: "Roboto";
   font-size: 14px;
+  line-height: 30px;
   color: white;
   margin-bottom: 45px;
 }
@@ -51,6 +52,7 @@
   .footer__div {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
     width: 100%;
     transform: translate(-25px, 0);
   }
@@ -65,5 +67,21 @@
 
   .footer--social {
     text-align: left;
+  }
+}
+
+/* desktop */
+
+@media all and (min-width: 1200px) {
+  .footer__div {
+    justify-content: center;
+  }
+
+  .footer__small {
+    padding-right: 40px;
+  }
+
+  .footer--articles {
+    padding-right: 60px;
   }
 }
