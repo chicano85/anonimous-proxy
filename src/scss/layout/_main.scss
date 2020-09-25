@@ -54,6 +54,7 @@
   font-family: $font-titles;
   font-size: 24px;
   line-height: 30px;
+  margin-top: 1px;
 }
 
 .tips__text {
@@ -61,6 +62,7 @@
   font-size: 18px;
   line-height: 30px;
   color: #4a4a4a;
+  margin-top: 15px;
 }
 
 .tips__link {
@@ -143,7 +145,7 @@
   }
   .main__hero--subtitle {
     font-size: 24px;
-    margin: 20px;
+    margin-top: 20px;
   }
   .main__hero--link {
     margin: 30px 0 45px 0;
@@ -152,16 +154,23 @@
   /* section 2 */
 
   .tips {
-    margin-left: 39px;
+    margin: 0 39px 0 39px;
   }
 
   .tips__title {
     font-size: 26px;
     line-height: 45px;
+    margin-top: 0;
   }
 
   .tips__text {
     font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .tips__link {
+    width: 91px;
+    margin-bottom: 60px;
   }
 
   /* section 3 */
@@ -185,5 +194,51 @@
   }
   .reasons__button {
     width: 210px;
+  }
+}
+
+/* desktop */
+
+@media all and (min-width: 1200px) {
+  /* section 1 */
+
+  .main__hero--title {
+    font-size: 100px;
+  }
+  .main__hero--subtitle {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .main__hero--link {
+    margin: 30px 0 13px 0;
+  }
+
+  /* section 2 */
+
+  .tips {
+    margin: 0 275px 0 275px;
+  }
+
+  .tips__small {
+    font-size: 16px;
+    margin-top: 60px;
+  }
+
+  .tips__title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  /* section 3 */
+
+  .reasons_div {
+    display: flex;
+    flex-direction: row;
+  }
+  .reasons__title {
+    font-size: 32px;
+  }
+
+  .reasons__button {
+    width: 255px;
   }
 }
