@@ -8,100 +8,128 @@
   </head>
   <body>
     <header class="header">
-      <img
-        class="header_img"
-        src="./assets/images/ico-menu.svg"
-        alt="ir al menú"
-        title="menú"
-      />
+      <a href="https://adalab.es/">
+        <img
+          class="header_img"
+          src="./assets/images/ico-menu.svg"
+          alt="ir al menú"
+          title="menú"
+        />
+      </a>
     </header>
 
     <main class="main">
-      <section class="main__hero">
-        <h1>Anonymous proxy</h1>
-        <h2>In hac habitasse platea dictumst.</h2>
-        <a href="index.html#" title="">
+      <section id="section1" class="main__hero">
+        <h1 class="main__hero--title"><span>Anonymous</span><span>proxy</span></h1>
+        <h2 class="main__hero--subtitle">In hac habitasse platea dictumst.</h2>
+        <a
+          class="main__hero--link"
+          href="index.html#section3"
+          title="ir a la sección 3"
+        >
           <img
             src="./assets/images/ico-scroll-down.svg"
             alt="flecha hacia abajo"
-            title="ir
-          a la sección 3"
+            title="ir a la sección 3"
           />
         </a>
       </section>
       <section class="tips">
-        <small>Insomnia tips</small>
-        <h2>Looking through a window</h2>
-        <p>
+        <small class="tips__small">Insomnia tips</small>
+        <h2 class="tips__title">Looking through a window</h2>
+        <p class="tips__text">
           Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
           luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <button>Go</button>
+        <a class="tips__link" href="https://adalab.es/" title="ir a Adalab">Go</a>
       </section>
-      <section class="reasons">
-        <h2>3 Reasons to purchase</h2>
-        <div>
-          <article class="reasons--article">
-            <h3>Ut sed metus</h3>
-            <p>Lorem ipsum dolor sit amet, consecteur.</p>
+      <section id="section3" class="reasons">
+        <h2 class="reasons__title">3 Reasons to purchase</h2>
+        <div class="reasons__div">
+          <article>
+            <h3 class="reasons--h3">Ut sed metus</h3>
+            <p class="reasons--text">Lorem ipsum dolor sit amet, consecteur.</p>
           </article>
-          <article class="reasons--article">
-            <h3>Curabitur ac erat</h3>
-            <p>Mauris mattis urna quis lorem molestie.</p>
+          <article>
+            <h3 class="reasons--h3">Curabitur ac erat</h3>
+            <p class="reasons--text">Mauris mattis urna quis lorem molestie.</p>
           </article>
-          <article class="reasons--article">
-            <h3>Morbi dictum</h3>
-            <p>Aliquam in dolor et dolor tincidunt.</p>
+          <article>
+            <h3 class="reasons--h3">Morbi dictum</h3>
+            <p class="reasons--text">Aliquam in dolor et dolor tincidunt.</p>
           </article>
         </div>
-        <button>More reasons</button>
+        <a class="reasons__link" href="https://adalab.es/" title="ir a Adalab"
+          >More reasons</a
+        >
       </section>
     </main>
 
     <footer class="footer">
-      <div>
-        <a href="">
+      <div class="footer__link">
+        <a href="index.html#section1" title="ir a la sección 3">
           <img
+            class="footer__link--image"
             src="./assets/images/ico-arrow.svg"
             alt="flecha hacia arriba"
             title="ir al inicio de la página"
           />
         </a>
       </div>
-      <small> &copy; 2017</small> <small>we ♥ components</small>
-      <div>
-        <div class="books">
+      <div class="footer__div">
+        <div class="footer--articles">
           <ul>
             <li>
-              <a href="">Articles</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Articles</a
+              >
             </li>
             <li>
-              <a href="">Books</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Books</a
+              >
             </li>
             <li>
-              <a href="">Events</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Events</a
+              >
             </li>
             <li>
-              <a href="">Reasons</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Reasons</a
+              >
             </li>
             <li>
-              <a href="">Tips</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Tips</a
+              >
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer--social">
           <ul>
             <li>
-              <a href="">Twitter</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Twitter</a
+              >
             </li>
             <li>
-              <a href="">Instagram</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Instagram</a
+              >
             </li>
             <li>
-              <a href="">Mastodon.social</a>
+              <a class="footer--links" href="https://adalab.es/" title="ir a Adalab"
+                >Mastodon.social</a
+              >
             </li>
           </ul>
         </div>
+
+        <small class="footer__small">
+          <span>&copy; 2017</span
+          ><span>we<span class="heart"> ♥ </span>components</span></small
+        >
       </div>
     </footer>
 
