@@ -54,7 +54,7 @@
     margin-bottom: 45px;
   }
   &--heart {
-    color: red;
+    color: $color-button;
   }
   @media all and (min-width: 768px) {
     &__div {

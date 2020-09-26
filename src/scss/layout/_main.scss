@@ -70,7 +70,7 @@
   flex-direction: column;
   margin-left: 15px;
 
-  &__small {
+  &__pretitle {
     color: #8ccbea;
     font-family: $font-paragraph;
     font-size: 14px;
@@ -130,7 +130,7 @@
   }
   @media all and (min-width: 1200px) {
     margin: 0 275px 0 275px;
-    &__small {
+    &__pretitle {
       font-size: 16px;
       margin-top: 60px;
     }
